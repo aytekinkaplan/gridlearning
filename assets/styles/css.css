@@ -28,6 +28,7 @@ p{
 }
 article{
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(67, 65, 65);
 }
 .article1{
     background-color: var(--color4);

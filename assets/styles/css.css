@@ -8,6 +8,7 @@
     --font1:Lato,Helvetica;
     --font2:Lato,sans-serif;
     --font3:Lato,arial,sans-serif;
+    --fontColor:var(--color1);
 }
 *{
     box-sizing: border-box;
@@ -21,16 +22,18 @@
     gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
     font-weight: bolder;
-    width: 70%;
+    width: 100%;
     
 }
 img {
     margin-top: 10px;
     padding-left: 10px;
+    border-radius: 50%;
 }
 p{
     margin: 10px;
     padding: 25px;
+    color: var(--fontColor);
 }
 article{
     border-radius: 10px;
